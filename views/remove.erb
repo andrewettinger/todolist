@@ -1,0 +1,13 @@
+<body> 
+	<% @task_array.each do |activity| %>
+	<%= activity.content %>
+	<br>
+
+	<form action = "/remove" method="post">
+		<button type="submit"	name ="remove" value="<%= activity.content %>">
+			Remove
+		</button>
+
+</form>
+	<% end %>
+</body>

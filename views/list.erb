@@ -1,0 +1,12 @@
+<body> 
+	<h10> <strong> Tasks: </strong> </h10>
+	<br>
+	<% @task_array.each do |activity| %>
+	<%= activity.content %>
+	<br>
+	<% end %>
+	<br>
+	<a href = '/'> Add Another Task </a>
+	<br>
+	<a href = '/remove'> Remove Tasks </a>
+</body>

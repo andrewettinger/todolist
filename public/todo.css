@@ -1,0 +1,12 @@
+.button {
+	font-size: 12pt;
+	background-color: gray;
+}
+
+.button:hover {
+	background-color: yellow;
+}
+
+.textbox {
+	font-size: 10pt;
+}
